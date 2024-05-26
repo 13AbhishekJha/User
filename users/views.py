@@ -8,7 +8,7 @@ from rest_framework.pagination import PageNumberPagination
 from rest_framework.filters import SearchFilter, OrderingFilter
 
 class UserPagination(PageNumberPagination):
-    page_size = 5
+    page_size = 10
     page_size_query_param = 'limit'
     max_page_size = 100
 
